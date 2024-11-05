@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil TP Lego</title>
+    <link rel="stylesheet" href="lego.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- C'est ici que je vais coder ma page -->
+        <header id="header">
+            <!-- h1.first-title+hr+(nav>ul>(li>a)*2)+hr -->
+            <h1 class="first-title">LEGO Webstore</h1>
+            <hr>
+            <nav>
+                <ul>
+                    <li><a href="./accueilco2.html">Accueil</a></li>
+                    <li><a href="./acheterco2.html">Acheter</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+
+
+        <main>
+
+            <!-- h2+p+img+h3+p*2+h3+(ul>(li*5))+p+h3+table -->
+             <!-- Attention ici le tableau n'est pas pris en compte (il y a juste table) -->
+
+            <h2>LEGO Architecture - New York</h2>
+            <p>Célébrez <b>New York</b> avec ce modèle LEGO Architecture Skyline ! Aperçu de la construction</p>
+            <img src="./produit_newyork_1.jpeg" alt="NYC">
+            <h3>Description du produit</h3>
+            <p>Description du produit Fêtez la diversité architecturale de New York avec ce modèle détaillé en briques LEGO. La
+                collection LEGO Architecture Skyline offre des modèles adaptés à l'exposition à la maison et au bureau, et a été
+                développée pour toutes les personnes qui s'intéressent au voyage, à la création, à l'histoire et à l'architecture.
+            </p>
+            <p>Chaque ensemble a une échelle adaptée pour donner une idée précise de la taille comparative de chaque structure, avec
+                une représentation en couleurs réalistes. Cet ensemble comprend le Flatiron Building, le Chrysler Building, l'Empire
+                State Building, le One World Trade Center et la Statue de la Liberté, et un écriteau décoratif “New York”.</p>
+            <h3>Spécificités</h3>
+            <ul>
+                <li>Interprétation LEGO du paysage de New York.</li>
+                <li>Comprend le Flatiron Building, le Chrysler Building, l'Empire State Building, le One World Trade Center et la Statue de la Liberté.</li>
+                <li>Inclut une plaque de base 4x32 avec un écriteau décoratif "New York".</li>
+                <li>Recréez les plus belles villes du monde avec la collection LEGO Architecture Skyline.</li>
+                <li>Mesure 26 cm de haut, 25 cm de large et 4 cm de profondeur.</li>
+            </ul>
+            <p>Source: Site officiel LEGO</p>
+            <h3>Caractéristiques</h3>
+
+            <table>
+
+                <!-- Ici il fallait utiliser rowspan et colspan -->
+                <!-- Ici avec rowspan et colspan nos cellules peuvent s'étaler sur plusieurs lignes(rows) et colonnes (col)  -->
+                
+                <tr>
+                    <th>Id.produit</th>
+                    <th colspan="2">Age</th>
+                    <th>Nbr de pièces</th>
+                    <th>Prix</th>
+                 </tr>
+                 <tr>
+                    <td rowspan="2">21028</td>
+                    <td>Mini</td>
+                    <td>Maxi</td>
+                    <td rowspan="2">598 pièces</td>
+                    <td rowspan="2">49.99£</td>
+                 </tr>
+                 <tr>
+                    <td>12 ans</td>
+                    <td>99 ans</td>
+                 </tr>
+
+            </table>
+
+        </main>
+
+        <hr>
+
+        <footer>
+            <!-- a+p*2 -->
+            <a href="#top">Retour en haut de page</a>
+            <p>TP1 : Découverte de HTML et CSS</p>
+            <p>L2 Développement Web - 2018</p>
+
+        </footer>
+
+
+    </div>
+
+</body>
+</html>
+    
